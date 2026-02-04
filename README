@@ -1,0 +1,10 @@
+This Capture The Flag (CTF) challenge is a web-based security exercise designed to simulate how attackers analyze and exploit weaknesses in a web application. The challenge presents a Student Portal login page that appears to be a normal authentication system but intentionally contains client-side security flaws.
+
+Participants are required to inspect the webpage by viewing the source code to discover hidden clues embedded within the HTML and JavaScript. The flag is not directly visible on the webpage and is instead obfuscated using string reversal and Base64 encoding, which represents weak protection of sensitive information.
+
+To successfully complete the challenge, participants must:
+
+Analyze the webpage structure
+
+Identify hidden client-side logic
+Extract the encoded flag Decode and reverse it to reveal the original CTF flag This challenge demonstrates how poor security practices, such as storing sensitive data in client-side code and relying on simple encoding, can lead to information disclosure. It helps participants develop practical skills in web enumeration, source code analysis, and basic data decoding techniques.
